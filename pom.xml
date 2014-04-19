@@ -46,6 +46,18 @@
           <exclude>**/*.java</exclude>
         </excludes>
       </resource>
+      <resource>
+        <directory>./</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+          <exclude>**/*.txt</exclude>
+          <exclude>**/*.md</exclude>
+          <exclude>**/*.xml</exclude>
+        </excludes>
+        <includes>
+          <include>plugin.yml</include>
+        </includes>
+      </resource>
     </resources>
     <plugins>
       <plugin>
